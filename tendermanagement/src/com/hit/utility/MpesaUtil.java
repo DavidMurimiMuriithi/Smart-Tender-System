@@ -10,8 +10,8 @@ import org.json.JSONObject; // Make sure to include the org.json library in your
 
 public class MpesaUtil {
     public static String getAccessToken() throws Exception {
-        String consumerKey = "YxOXsJGNYqGasHB8JfrHWSxRbab6pGPkbl3jUzoecRmeAcWd"; // Replace with your actual consumer key
-        String consumerSecret = "hwzSZndr4NnsunIoZRy08LJGyb3GqPUzMdaIPeN4IjryVMyndxO8Vc752cd3aEKK"; // Replace with your actual consumer secret
+        String consumerKey = ""; // Replace with your actual consumer key
+        String consumerSecret = ""; // Replace with your actual consumer secret
         
         String auth = consumerKey + ":" + consumerSecret;
         byte[] encodedAuth = Base64.getEncoder().encode(auth.getBytes());
