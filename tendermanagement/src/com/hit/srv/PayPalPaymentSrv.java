@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class PayPalPaymentSrv {
     public static String createPayment(String amount) throws PayPalRESTException {
         // Initialize the API context with your client credentials
-        APIContext apiContext = new APIContext("AeIX2kSczdR6R3uvnOO2jUTO_6zZBdsXuYQl73xOGajPUpKvcNu03jdWZhFNhqSF1LLf0E72hFKeDeep", "EE8Zl2UfOQdruuoniAQrdhidcmvuDsq_w5a50u85hLzOhrunw65rN_PDxBPqajRO7UMgYlhV9bxU3CyO", "sandbox");
+        APIContext apiContext = new APIContext("", "", "sandbox");//YOUR API
 
         // Set up the payment amount
         Amount paymentAmount = new Amount();
