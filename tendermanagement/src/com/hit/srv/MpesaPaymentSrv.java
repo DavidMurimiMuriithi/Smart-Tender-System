@@ -24,7 +24,7 @@ public class MpesaPaymentSrv {
 
         // Prepare BusinessShortCode, Timestamp, and Password
         String shortCode = "174379"; // Replace with your actual shortcode
-        String passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"; // Replace with your actual passkey
+        String passkey = ""; // Replace with your actual passkey
         SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
         String timestamp = sdf.format(new Date()); // Generate current timestamp
         String password = Base64.getEncoder().encodeToString((shortCode + passkey + timestamp).getBytes());
